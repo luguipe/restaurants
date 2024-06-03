@@ -1,2 +1,2 @@
-export * from "./resolver";
+export * from "./resolvers";
 export * from "./schema";

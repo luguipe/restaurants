@@ -13,7 +13,7 @@ const handler = startServerAndCreateNextHandler<NextRequest>(server, {
   context: async (req, res) => ({
     req,
     res,
-    dataSources: {},
+    db: {},
   }),
 });
 export async function GET(request: NextRequest) {
