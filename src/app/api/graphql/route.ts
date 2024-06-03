@@ -1,15 +1,24 @@
-// app/api/route.js 👈🏽
+import { startServerAndCreateNextHandler } from "@as-integrations/next";
+import { ApolloServer } from "@apollo/server";
+import { NextRequest } from "next/server";
+import { typeDefs, resolvers } from "@/server";
 
-import { NextRequest, NextResponse } from "next/server";
 
-// To handle a GET request to /api
+const server = new ApolloServer({
+  resolvers,
+  typeDefs,
+});
+
+const handler = startServerAndCreateNextHandler<NextRequest>(server, {
+  context: async (req, res) => ({
+    req,
+    res,
+    dataSources: {},
+  }),
+});
 export async function GET(request: NextRequest) {
-  // Do whatever you want
-  return NextResponse.json({ message: "Hello World" }, { status: 200 });
+  return handler(request);
 }
-
-// To handle a POST request to /api
 export async function POST(request: NextRequest) {
-  // Do whatever you want
-  return NextResponse.json({ message: "Hello World" }, { status: 200 });
+  return handler(request);
 }
