@@ -1,5 +1,4 @@
 // MongoDB Data Source for Users
-import UserModel from "../model/model";
 import { MongoDataSource } from "apollo-datasource-mongodb";
 import { ObjectId } from "mongodb";
 
@@ -14,17 +13,13 @@ interface UserDocument {
 export default class Users extends MongoDataSource<UserDocument> {
   // Function to fetch all users
   async getAllUsers() {
-    try {
-      return await UserModel.find();
-    } catch (error) {
-      throw new Error("Failed to fetch users");
-    }
+      return this.collection.find().toArray();
   }
 
   // Function to create a new user
-  async createUser({ input }: any) {
+  async createUser(input) {
     try {
-      return await UserModel.create({ ...input });
+      return await this.collection.insertOne(input);
     } catch (error) {
       throw new Error("Failed to create user");
     }

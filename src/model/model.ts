@@ -3,6 +3,8 @@ import mongoose  from "mongoose";
 
 const { Schema } = mongoose;
 
+
+// I don't think we need this at all. we can use ZOD to validate the data
 const userSchema = new Schema({
   // Define user fields here matching the GraphQL schema
   first_name: { type: String, required: [true, "All fields are required"] },

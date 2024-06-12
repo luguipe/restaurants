@@ -1,6 +1,6 @@
 export const typeDefs = `#graphql
   type User {
-    id: ID!
+    _id: ID!
     firstName: String!
     lastName: String!
     email: String!
@@ -9,7 +9,7 @@ export const typeDefs = `#graphql
   }
 
   type MenuItem {
-    id: ID!
+    _id: ID!
     name: String!
     price: Float!
     description: String!
@@ -18,7 +18,7 @@ export const typeDefs = `#graphql
   }
 
   type Restaurant {
-    id: ID!
+    _id: ID!
     name: String!
     location: String!
     cuisine: String!

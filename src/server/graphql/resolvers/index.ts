@@ -1,7 +1,7 @@
 import { Query } from "mongoose";
 
 import {query as restaurantQuery, mutation as restaurantMutation} from "./restaurant";
-import {query as userQuery} from "./user";
+import {query as userQuery, mutation as userMutation} from "./user";
 
 export const resolvers = {
   Query: {
@@ -9,9 +9,7 @@ export const resolvers = {
     ...userQuery,
   },
   Mutation: {
-    createUser: () => {
-      return "new user created";
-    },
+    ...userMutation,
     ...restaurantMutation,
   },
 };

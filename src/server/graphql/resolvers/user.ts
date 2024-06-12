@@ -1,26 +1,23 @@
     
     
-const users = async (parent, args, context, info) => [
-    {
-        id: "1",
-        firstName: "Luiz",
-        lastName: "Perez",
-        email: "luiz@test.com",
-        age: 30,
-        active: true
-    },
-    {
-        id: "2",
-        firstName: "Pedro",
-        lastName: "Boss",
-        email: "pedro@boss.com",
-        age: 25,
-        active: true
+// TODO: define resolvers type
+const users = async (parent, args, context) => context.dataSources.users.getAllUsers();
+
+const createUser = async (parent, args, context) => {
+    const { insertedId } = await context.dataSources.users.createUser(args.input);
+
+    return {
+        ...args.input,
+        _id: insertedId
     }
-];
+}
 
 
 
 export const query = {  
     users
+};
+
+export const mutation = {
+    createUser
 };

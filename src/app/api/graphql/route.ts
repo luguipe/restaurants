@@ -3,26 +3,13 @@ import { ApolloServer } from "@apollo/server";
 import { NextRequest } from "next/server";
 import { typeDefs, resolvers } from "@/server";
 import Users from "../../../db/datasources";
-import UserModel from "../../../model/model";
 
-
-import mongoose from "mongoose";
+import {MongoClient} from "mongodb";
 
 // const uri = process.env.NEXT_PUBLIC_MONGODB_URI;
 const uri = `mongodb+srv://root:learningmongoDB@learningcluster.nuamtpr.mongodb.net/?retryWrites=true&w=majority&appName=LearningCluster`;
 
-const connectDB = async () => {
-  try {
-    if (uri) {
-      await mongoose.connect(uri);
-      console.log("🎉 connected to database successfully");
-    }
-  } catch (error) {
-    console.error(error);
-  }
-};
-connectDB();
-
+const client = new MongoClient(uri);
 
 const server = new ApolloServer({
   resolvers,
@@ -30,13 +17,16 @@ const server = new ApolloServer({
 });
 
 const handler = startServerAndCreateNextHandler<NextRequest>(server, {
-  context: async (req, res) => ({
-    req,
-    res,
-    dataSources: {
-      users: new Users({ modelOrCollection: UserModel }),
-    },
-  }),
+  context: async (req, res) => {
+    await client.connect();
+    return {
+      req,
+      res,
+      dataSources: {
+        users: new Users({ modelOrCollection: client.db().collection('users') }),
+      },
+    };
+  }
 });
 
 
