@@ -1,0 +1,202 @@
+[
+	{
+		"id": 1,
+		"restaurantName": "Lucian Calderon",
+		"phone": "(05) 3815 8332",
+		"location": "Ap #278-118 Nisi Ave",
+		"cuisine": "vegan",
+		"openningTime": "4:57 AM",
+		"closingTime": "1:09 AM",
+		"active": true
+	},
+	{
+		"id": 2,
+		"restaurantName": "Gregory Valdez",
+		"phone": "(09) 1204 0081",
+		"location": "Ap #578-8641 Augue. Avenue",
+		"cuisine": "noodles",
+		"openningTime": "3:58 PM",
+		"closingTime": "1:25 AM",
+		"active": true
+	},
+	{
+		"id": 3,
+		"restaurantName": "Scarlett Schroeder",
+		"phone": "(08) 5227 1430",
+		"location": "P.O. Box 733, 1470 Mauris Rd.",
+		"cuisine": "pies",
+		"openningTime": "1:02 PM",
+		"closingTime": "3:21 AM",
+		"active": false
+	},
+	{
+		"id": 4,
+		"restaurantName": "Amery Gray",
+		"phone": "(05) 5685 3352",
+		"location": "510-9948 Semper Avenue",
+		"cuisine": "vegan",
+		"openningTime": "6:22 PM",
+		"closingTime": "4:47 AM",
+		"active": true
+	},
+	{
+		"id": 5,
+		"restaurantName": "Illana Hammond",
+		"phone": "(03) 2978 3756",
+		"location": "Ap #842-7448 Lorem Av.",
+		"cuisine": "pasta",
+		"openningTime": "8:24 AM",
+		"closingTime": "4:59 AM",
+		"active": false
+	},
+	{
+		"id": 6,
+		"restaurantName": "Dale Gaines",
+		"phone": "(07) 4750 2352",
+		"location": "P.O. Box 599, 8206 Euismod Rd.",
+		"cuisine": "pasta",
+		"openningTime": "10:57 AM",
+		"closingTime": "1:54 AM",
+		"active": true
+	},
+	{
+		"id": 7,
+		"restaurantName": "Graham Snyder",
+		"phone": "(02) 3241 0457",
+		"location": "484-207 Et Road",
+		"cuisine": "stews",
+		"openningTime": "4:19 PM",
+		"closingTime": "9:06 AM",
+		"active": true
+	},
+	{
+		"id": 8,
+		"restaurantName": "Murphy Talley",
+		"phone": "(04) 9874 8239",
+		"location": "Ap #603-6654 Et Ave",
+		"cuisine": "sandwiches",
+		"openningTime": "11:56 AM",
+		"closingTime": "1:22 AM",
+		"active": true
+	},
+	{
+		"id": 9,
+		"restaurantName": "Lewis Campbell",
+		"phone": "(07) 3633 3464",
+		"location": "P.O. Box 541, 9459 Vulputate, Av.",
+		"cuisine": "stews",
+		"openningTime": "4:21 PM",
+		"closingTime": "5:43 AM",
+		"active": true
+	},
+	{
+		"id": 10,
+		"restaurantName": "Kelsie Zimmerman",
+		"phone": "(08) 3808 2106",
+		"location": "P.O. Box 645, 3413 Cubilia Avenue",
+		"cuisine": "pasta",
+		"openningTime": "3:30 PM",
+		"closingTime": "12:41 AM",
+		"active": false
+	},
+	{
+		"id": 11,
+		"restaurantName": "Logan Moran",
+		"phone": "(01) 7154 8375",
+		"location": "434-2660 Posuere Rd.",
+		"cuisine": "vegan",
+		"openningTime": "7:30 PM",
+		"closingTime": "7:36 AM",
+		"active": false
+	},
+	{
+		"id": 12,
+		"restaurantName": "Meredith Stuart",
+		"phone": "(04) 1583 9286",
+		"location": "Ap #790-1156 Nam St.",
+		"cuisine": "salads",
+		"openningTime": "10:06 AM",
+		"closingTime": "3:13 AM",
+		"active": true
+	},
+	{
+		"id": 13,
+		"restaurantName": "Demetrius Wilson",
+		"phone": "(06) 1458 1213",
+		"location": "167-955 Ornare, St.",
+		"cuisine": "desserts",
+		"openningTime": "4:05 AM",
+		"closingTime": "3:09 AM",
+		"active": false
+	},
+	{
+		"id": 14,
+		"restaurantName": "Ivor Duncan",
+		"phone": "(06) 4345 2744",
+		"location": "8152 Tellus, Road",
+		"cuisine": "pies",
+		"openningTime": "4:41 AM",
+		"closingTime": "1:51 AM",
+		"active": true
+	},
+	{
+		"id": 15,
+		"restaurantName": "Finn Barker",
+		"phone": "(04) 9210 4331",
+		"location": "911-7061 Dolor Road",
+		"cuisine": "desserts",
+		"openningTime": "4:10 PM",
+		"closingTime": "11:55 AM",
+		"active": true
+	},
+	{
+		"id": 16,
+		"restaurantName": "Adele Black",
+		"phone": "(02) 8535 8665",
+		"location": "Ap #903-2196 Quis Rd.",
+		"cuisine": "pies",
+		"openningTime": "10:46 AM",
+		"closingTime": "12:11 AM",
+		"active": false
+	},
+	{
+		"id": 17,
+		"restaurantName": "Caleb Kelley",
+		"phone": "(03) 5332 2898",
+		"location": "931-6938 Vitae, Rd.",
+		"cuisine": "noodles",
+		"openningTime": "11:16 AM",
+		"closingTime": "10:01 AM",
+		"active": false
+	},
+	{
+		"id": 18,
+		"restaurantName": "Jakeem Richardson",
+		"phone": "(03) 6233 6568",
+		"location": "745-8342 Bibendum Avenue",
+		"cuisine": "pasta",
+		"openningTime": "7:01 PM",
+		"closingTime": "9:07 AM",
+		"active": false
+	},
+	{
+		"id": 19,
+		"restaurantName": "Ira Mcbride",
+		"phone": "(06) 4564 2730",
+		"location": "791-3989 Eu, Av.",
+		"cuisine": "pies",
+		"openningTime": "10:46 AM",
+		"closingTime": "11:14 AM",
+		"active": false
+	},
+	{
+		"id": 20,
+		"restaurantName": "Savannah Hatfield",
+		"phone": "(05) 2246 8218",
+		"location": "Ap #966-217 Enim. Rd.",
+		"cuisine": "sandwiches",
+		"openningTime": "6:50 AM",
+		"closingTime": "5:23 AM",
+		"active": true
+	}
+]

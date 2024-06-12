@@ -1,0 +1,556 @@
+{
+  "dish": {
+    "pasta": [
+      {
+        "name": "Spaghetti Carbonara",
+        "description": "Classic Italian pasta with pancetta, egg, and cheese.",
+        "cuisine": "Italian",
+        "price": 12.99
+      },
+      {
+        "name": "Penne Arrabbiata",
+        "description": "Penne pasta in a spicy tomato sauce.",
+        "cuisine": "Italian",
+        "price": 11.99
+      },
+      {
+        "name": "Fettuccine Alfredo",
+        "description": "Fettuccine pasta in a creamy Alfredo sauce.",
+        "cuisine": "Italian",
+        "price": 13.99
+      },
+      {
+        "name": "Lasagna",
+        "description": "Layers of pasta with meat, cheese, and tomato sauce.",
+        "cuisine": "Italian",
+        "price": 14.99
+      },
+      {
+        "name": "Pesto Pasta",
+        "description": "Pasta with a basil pesto sauce.",
+        "cuisine": "Italian",
+        "price": 11.99
+      },
+      {
+        "name": "Bolognese",
+        "description": "Pasta with a rich meat sauce.",
+        "cuisine": "Italian",
+        "price": 13.99
+      },
+      {
+        "name": "Pasta Primavera",
+        "description": "Pasta with fresh vegetables and a light sauce.",
+        "cuisine": "Italian",
+        "price": 12.99
+      },
+      {
+        "name": "Ravioli",
+        "description": "Stuffed pasta with ricotta and spinach.",
+        "cuisine": "Italian",
+        "price": 14.99
+      },
+      {
+        "name": "Gnocchi",
+        "description": "Potato dumplings with a tomato sauce.",
+        "cuisine": "Italian",
+        "price": 13.99
+      },
+      {
+        "name": "Orecchiette with Broccoli Rabe",
+        "description": "Pasta with broccoli rabe and sausage.",
+        "cuisine": "Italian",
+        "price": 14.99
+      },
+      {
+        "name": "Linguine with Clam Sauce",
+        "description": "Pasta with a white wine clam sauce.",
+        "cuisine": "Italian",
+        "price": 15.99
+      },
+      {
+        "name": "Cacio e Pepe",
+        "description": "Pasta with black pepper and Pecorino cheese.",
+        "cuisine": "Italian",
+        "price": 12.99
+      },
+      {
+        "name": "Mac and Cheese",
+        "description": "Pasta with a creamy cheese sauce.",
+        "cuisine": "American",
+        "price": 10.99
+      },
+      {
+        "name": "Pasta alla Norma",
+        "description": "Pasta with eggplant and ricotta salata.",
+        "cuisine": "Italian",
+        "price": 13.99
+      },
+      {
+        "name": "Tortellini",
+        "description": "Stuffed pasta with cheese and a creamy sauce.",
+        "cuisine": "Italian",
+        "price": 14.99
+      }
+    ],
+    "pies": [
+      {
+        "name": "Chicken Pot Pie",
+        "description": "Savory pie filled with chicken, vegetables, and a creamy sauce.",
+        "cuisine": "American",
+        "price": 9.99
+      },
+      {
+        "name": "Beef Shepherd's Pie",
+        "description": "Pie with ground beef, vegetables, and mashed potatoes.",
+        "cuisine": "British",
+        "price": 10.99
+      },
+      {
+        "name": "Apple Pie",
+        "description": "Classic dessert pie with sweet apple filling.",
+        "cuisine": "American",
+        "price": 5.99
+      },
+      {
+        "name": "Pumpkin Pie",
+        "description": "Creamy pumpkin pie with a hint of cinnamon.",
+        "cuisine": "American",
+        "price": 6.99
+      },
+      {
+        "name": "Pecan Pie",
+        "description": "Rich pie with a sweet pecan filling.",
+        "cuisine": "American",
+        "price": 7.99
+      },
+      {
+        "name": "Key Lime Pie",
+        "description": "Tart and sweet pie with a graham cracker crust.",
+        "cuisine": "American",
+        "price": 6.99
+      },
+      {
+        "name": "Blueberry Pie",
+        "description": "Pie filled with fresh blueberries.",
+        "cuisine": "American",
+        "price": 6.99
+      },
+      {
+        "name": "Cherry Pie",
+        "description": "Pie filled with tart cherries.",
+        "cuisine": "American",
+        "price": 6.99
+      },
+      {
+        "name": "Lemon Meringue Pie",
+        "description": "Pie with a tangy lemon filling and fluffy meringue topping.",
+        "cuisine": "American",
+        "price": 7.99
+      },
+      {
+        "name": "Steak and Ale Pie",
+        "description": "Savory pie with steak and ale gravy.",
+        "cuisine": "British",
+        "price": 11.99
+      },
+      {
+        "name": "Mince Pie",
+        "description": "Sweet pie filled with spiced fruit and nuts.",
+        "cuisine": "British",
+        "price": 4.99
+      },
+      {
+        "name": "Pork Pie",
+        "description": "Savory pie with seasoned pork filling.",
+        "cuisine": "British",
+        "price": 8.99
+      },
+      {
+        "name": "Fish Pie",
+        "description": "Pie with white fish, prawns, and a creamy sauce.",
+        "cuisine": "British",
+        "price": 10.99
+      },
+      {
+        "name": "Cottage Pie",
+        "description": "Pie with minced meat topped with mashed potatoes.",
+        "cuisine": "British",
+        "price": 9.99
+      },
+      {
+        "name": "Vegetarian Pot Pie",
+        "description": "Savory pie filled with vegetables and a creamy sauce.",
+        "cuisine": "American",
+        "price": 8.99
+      }
+    ],
+    "salads": [
+      {
+        "name": "Caesar Salad",
+        "description": "Romaine lettuce with Caesar dressing, croutons, and Parmesan cheese.",
+        "cuisine": "Italian",
+        "price": 7.99
+      },
+      {
+        "name": "Greek Salad",
+        "description": "Salad with tomatoes, cucumbers, olives, feta cheese, and olive oil.",
+        "cuisine": "Greek",
+        "price": 8.99
+      },
+      {
+        "name": "Cobb Salad",
+        "description": "Salad with chicken, bacon, avocado, eggs, and blue cheese.",
+        "cuisine": "American",
+        "price": 9.99
+      },
+      {
+        "name": "Caprese Salad",
+        "description": "Salad with fresh mozzarella, tomatoes, basil, and balsamic glaze.",
+        "cuisine": "Italian",
+        "price": 8.99
+      },
+      {
+        "name": "Garden Salad",
+        "description": "Mixed greens with tomatoes, cucumbers, and carrots.",
+        "cuisine": "American",
+        "price": 6.99
+      },
+      {
+        "name": "Spinach Salad",
+        "description": "Spinach with strawberries, pecans, and a balsamic vinaigrette.",
+        "cuisine": "American",
+        "price": 7.99
+      },
+      {
+        "name": "Waldorf Salad",
+        "description": "Salad with apples, grapes, walnuts, and a creamy dressing.",
+        "cuisine": "American",
+        "price": 8.99
+      },
+      {
+        "name": "Nicoise Salad",
+        "description": "Salad with tuna, green beans, potatoes, and olives.",
+        "cuisine": "French",
+        "price": 10.99
+      },
+      {
+        "name": "Quinoa Salad",
+        "description": "Salad with quinoa, black beans, corn, and a lime dressing.",
+        "cuisine": "American",
+        "price": 8.99
+      },
+      {
+        "name": "Kale Salad",
+        "description": "Kale with cranberries, almonds, and a lemon vinaigrette.",
+        "cuisine": "American",
+        "price": 7.99
+      },
+      {
+        "name": "Asian Chicken Salad",
+        "description": "Salad with chicken, mandarin oranges, and an Asian sesame dressing.",
+        "cuisine": "Asian",
+        "price": 9.99
+      },
+      {
+        "name": "Beet Salad",
+        "description": "Salad with roasted beets, goat cheese, and a balsamic reduction.",
+        "cuisine": "American",
+        "price": 8.99
+      },
+      {
+        "name": "Arugula Salad",
+        "description": "Arugula with Parmesan cheese and a lemon vinaigrette.",
+        "cuisine": "Italian",
+        "price": 7.99
+      },
+      {
+        "name": "Chickpea Salad",
+        "description": "Salad with chickpeas, cucumbers, tomatoes, and feta cheese.",
+        "cuisine": "Mediterranean",
+        "price": 7.99
+      },
+      {
+        "name": "Broccoli Salad",
+        "description": "Broccoli with bacon, raisins, and a creamy dressing.",
+        "cuisine": "American",
+        "price": 8.99
+      }
+    ],
+    "desserts": [
+      {
+        "name": "Chocolate Cake",
+        "description": "Rich chocolate cake with layers of chocolate frosting.",
+        "cuisine": "American",
+        "price": 5.99
+      },
+      {
+        "name": "Cheesecake",
+        "description": "Creamy cheesecake with a graham cracker crust.",
+        "cuisine": "American",
+        "price": 6.99
+      },
+      {
+        "name": "Tiramisu",
+        "description": "Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cheese.",
+        "cuisine": "Italian",
+        "price": 7.99
+      },
+      {
+        "name": "Lemon Tart",
+        "description": "Tangy lemon tart with a buttery crust.",
+        "cuisine": "French",
+        "price": 6.99
+      },
+      {
+        "name": "Panna Cotta",
+        "description": "Italian dessert made with sweetened cream and gelatin.",
+        "cuisine": "Italian",
+        "price": 6.99
+      },
+      {
+        "name": "Creme Brulee",
+        "description": "Custard dessert with a caramelized sugar top.",
+        "cuisine": "French",
+        "price": 7.99
+      },
+      {
+        "name": "Fruit Tart",
+        "description": "Tart filled with custard and topped with fresh fruit.",
+        "cuisine": "French",
+        "price": 6.99
+      },
+      {
+        "name": "Brownie",
+        "description": "Chocolate brownie with a gooey center.",
+        "cuisine": "American",
+        "price": 4.99
+      },
+      {
+        "name": "Ice Cream Sundae",
+        "description": "Ice cream topped with chocolate sauce, whipped cream, and a cherry.",
+        "cuisine": "American",
+        "price": 5.99
+      },
+      {
+        "name": "Banana Split",
+        "description": "Banana with scoops of ice cream, chocolate sauce, and whipped cream.",
+        "cuisine": "American",
+        "price": 6.99
+      },
+      {
+        "name": "Baklava",
+        "description": "Layers of filo pastry filled with nuts and honey.",
+        "cuisine": "Greek",
+        "price": 5.99
+      },
+      {
+        "name": "Cannoli",
+        "description": "Italian pastry filled with sweet ricotta cheese.",
+        "cuisine": "Italian",
+        "price": 4.99
+      },
+      {
+        "name": "Mousse",
+        "description": "Light and airy chocolate mousse.",
+        "cuisine": "French",
+        "price": 5.99
+      },
+      {
+        "name": "Pavlova",
+        "description": "Meringue dessert topped with fresh fruit and whipped cream.",
+        "cuisine": "Australian",
+        "price": 6.99
+      },
+      {
+        "name": "Eclair",
+        "description": "Pastry filled with cream and topped with chocolate icing.",
+        "cuisine": "French",
+        "price": 4.99
+      }
+    ],
+    "vegan": [
+      {
+        "name": "Vegan Burger",
+        "description": "Plant-based burger with lettuce, tomato, and vegan mayo.",
+        "cuisine": "American",
+        "price": 9.99
+      },
+      {
+        "name": "Vegan Buddha Bowl",
+        "description": "Quinoa, chickpeas, avocado, and a variety of vegetables.",
+        "cuisine": "American",
+        "price": 10.99
+      },
+      {
+        "name": "Vegan Tacos",
+        "description": "Tacos with black beans, corn, avocado, and salsa.",
+        "cuisine": "Mexican",
+        "price": 8.99
+      },
+      {
+        "name": "Vegan Stir Fry",
+        "description": "Stir fry with tofu, vegetables, and a savory sauce.",
+        "cuisine": "Asian",
+        "price": 9.99
+      },
+      {
+        "name": "Vegan Mac and Cheese",
+        "description": "Macaroni with a creamy cashew cheese sauce.",
+        "cuisine": "American",
+        "price": 10.99
+      },
+      {
+        "name": "Vegan Pizza",
+        "description": "Pizza with vegan cheese and assorted vegetables.",
+        "cuisine": "Italian",
+        "price": 11.99
+      },
+      {
+        "name": "Vegan Sushi",
+        "description": "Sushi rolls with avocado, cucumber, and carrot.",
+        "cuisine": "Japanese",
+        "price": 9.99
+      },
+      {
+        "name": "Vegan Chili",
+        "description": "Spicy chili with beans and vegetables.",
+        "cuisine": "American",
+        "price": 8.99
+      },
+      {
+        "name": "Vegan Curry",
+        "description": "Curry with tofu, chickpeas, and vegetables.",
+        "cuisine": "Indian",
+        "price": 10.99
+      },
+      {
+        "name": "Vegan Falafel",
+        "description": "Falafel with hummus, tahini, and pita bread.",
+        "cuisine": "Middle Eastern",
+        "price": 8.99
+      },
+      {
+        "name": "Vegan Burrito",
+        "description": "Burrito with rice, beans, avocado, and vegetables.",
+        "cuisine": "Mexican",
+        "price": 9.99
+      },
+      {
+        "name": "Vegan Pad Thai",
+        "description": "Rice noodles with tofu, peanuts, and a tangy sauce.",
+        "cuisine": "Thai",
+        "price": 11.99
+      },
+      {
+        "name": "Vegan Bolognese",
+        "description": "Pasta with a meatless tomato sauce.",
+        "cuisine": "Italian",
+        "price": 12.99
+      },
+      {
+        "name": "Vegan Enchiladas",
+        "description": "Enchiladas with black beans and vegan cheese.",
+        "cuisine": "Mexican",
+        "price": 10.99
+      },
+      {
+        "name": "Vegan Samosas",
+        "description": "Fried pastry filled with spiced potatoes and peas.",
+        "cuisine": "Indian",
+        "price": 7.99
+      }
+    ],
+    "soups_stews": [
+      {
+        "name": "Tomato Basil Soup",
+        "description": "Creamy tomato soup with fresh basil.",
+        "cuisine": "Italian",
+        "price": 6.99
+      },
+      {
+        "name": "Beef Stew",
+        "description": "Hearty stew with beef, potatoes, carrots, and onions.",
+        "cuisine": "American",
+        "price": 8.99
+      },
+      {
+        "name": "Chicken Noodle Soup",
+        "description": "Classic soup with chicken, noodles, and vegetables.",
+        "cuisine": "American",
+        "price": 7.99
+      },
+      {
+        "name": "Minestrone",
+        "description": "Italian vegetable soup with pasta and beans.",
+        "cuisine": "Italian",
+        "price": 7.99
+      },
+      {
+        "name": "French Onion Soup",
+        "description": "Onion soup with a beef broth and melted cheese.",
+        "cuisine": "French",
+        "price": 7.99
+      },
+      {
+        "name": "Clam Chowder",
+        "description": "Creamy soup with clams, potatoes, and bacon.",
+        "cuisine": "American",
+        "price": 8.99
+      },
+      {
+        "name": "Lentil Soup",
+        "description": "Soup with lentils, vegetables, and spices.",
+        "cuisine": "Middle Eastern",
+        "price": 6.99
+      },
+      {
+        "name": "Butternut Squash Soup",
+        "description": "Creamy soup with roasted butternut squash.",
+        "cuisine": "American",
+        "price": 6.99
+      },
+      {
+        "name": "Gumbo",
+        "description": "Spicy stew with shrimp, sausage, and okra.",
+        "cuisine": "Cajun",
+        "price": 9.99
+      },
+      {
+        "name": "Split Pea Soup",
+        "description": "Thick soup with split peas and ham.",
+        "cuisine": "American",
+        "price": 7.99
+      },
+      {
+        "name": "Pho",
+        "description": "Vietnamese noodle soup with beef, herbs, and bean sprouts.",
+        "cuisine": "Vietnamese",
+        "price": 9.99
+      },
+      {
+        "name": "Miso Soup",
+        "description": "Japanese soup with tofu, seaweed, and miso broth.",
+        "cuisine": "Japanese",
+        "price": 4.99
+      },
+      {
+        "name": "Borscht",
+        "description": "Eastern European beet soup with sour cream.",
+        "cuisine": "Russian",
+        "price": 6.99
+      },
+      {
+        "name": "Avgolemono",
+        "description": "Greek chicken soup with egg and lemon.",
+        "cuisine": "Greek",
+        "price": 7.99
+      },
+      {
+        "name": "Bouillabaisse",
+        "description": "French seafood stew with a variety of fish and shellfish.",
+        "cuisine": "French",
+        "price": 12.99
+      }
+    ]
+  }
+}
