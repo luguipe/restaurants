@@ -1,13 +1,7 @@
 import { Context, compareHash, createHash } from "@/server/utils";
-
-
-    
     
 // TODO: define resolvers type
 const users = async (parent, args, context) => context.dataSources.users.getAllUsers();
-
-
-
 
 const userSignUp = async (parent, args, {db}: Context) => {
      
@@ -59,6 +53,11 @@ const userSignIn = async (parent, args, {db}: Context) => {
 
 };
 
+export const userSignOut = async (parent, args, {req, res}: Context) => {
+    // req.session.destroy();
+    return true;
+}
+
 
 export const query = {  
     users
@@ -66,5 +65,6 @@ export const query = {
 
 export const mutation = {
     userSignUp,
-    userSignIn
+    userSignIn,
+    userSignOut
 };

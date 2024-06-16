@@ -1,8 +1,7 @@
 import { startServerAndCreateNextHandler } from "@as-integrations/next";
 import { ApolloServer } from "@apollo/server";
 import { NextRequest } from "next/server";
-import { typeDefs, resolvers } from "@/server";
-
+import { typeDefs, resolvers } from "@/server/graphql";
 import { createContext } from "@/server/utils";
 
 

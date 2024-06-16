@@ -43,4 +43,8 @@ export class Users extends MongoDataSource<UserDocument> {
       throw new Error("Failed to create user");
     }
   }
+
+  static createCollection(client) {
+    return new Users({ modelOrCollection: client.db().collection("users") });
+  } 
 }
