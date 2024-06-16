@@ -4,7 +4,7 @@
 		"firstName": "Cally",
 		"lastName": "Hampton",
 		"email": "hampton-cally@test.com",
-		"alphanumeric": 85,
+		"age": 85,
 		"boolean": true
 	},
 	{
@@ -12,7 +12,7 @@
 		"firstName": "Gail",
 		"lastName": "Stephens",
 		"email": "stephensgail1707@test.com",
-		"alphanumeric": 27,
+		"age": 27,
 		"boolean": false
 	},
 	{
@@ -20,7 +20,7 @@
 		"firstName": "Malcolm",
 		"lastName": "Gilmore",
 		"email": "gilmore.malcolm678@test.com",
-		"alphanumeric": 58,
+		"age": 58,
 		"boolean": false
 	},
 	{
@@ -28,7 +28,7 @@
 		"firstName": "Dennis",
 		"lastName": "Mack",
 		"email": "mackdennis@dummy.com",
-		"alphanumeric": 79,
+		"age": 79,
 		"boolean": false
 	},
 	{
@@ -36,7 +36,7 @@
 		"firstName": "Grady",
 		"lastName": "Sweet",
 		"email": "gsweet7869@test.com",
-		"alphanumeric": 77,
+		"age": 77,
 		"boolean": false
 	},
 	{
@@ -44,7 +44,7 @@
 		"firstName": "Phillip",
 		"lastName": "Hatfield",
 		"email": "hatfield_phillip368@test.com",
-		"alphanumeric": 67,
+		"age": 67,
 		"boolean": false
 	},
 	{
@@ -52,7 +52,7 @@
 		"firstName": "Dustin",
 		"lastName": "Browning",
 		"email": "d_browning9970@dummy.com",
-		"alphanumeric": 40,
+		"age": 40,
 		"boolean": false
 	},
 	{
@@ -60,7 +60,7 @@
 		"firstName": "Cairo",
 		"lastName": "Mercado",
 		"email": "m_cairo6733@test.com",
-		"alphanumeric": 69,
+		"age": 69,
 		"boolean": false
 	},
 	{
@@ -68,7 +68,7 @@
 		"firstName": "Elvis",
 		"lastName": "Chapman",
 		"email": "elvis.chapman7938@dummy.com",
-		"alphanumeric": 44,
+		"age": 44,
 		"boolean": true
 	},
 	{
@@ -76,7 +76,7 @@
 		"firstName": "Danielle",
 		"lastName": "Douglas",
 		"email": "douglas.danielle@test.com",
-		"alphanumeric": 92,
+		"age": 92,
 		"boolean": false
 	},
 	{
@@ -84,7 +84,7 @@
 		"firstName": "Chelsea",
 		"lastName": "Marsh",
 		"email": "c_marsh@test.com",
-		"alphanumeric": 84,
+		"age": 84,
 		"boolean": true
 	},
 	{
@@ -92,7 +92,7 @@
 		"firstName": "Robin",
 		"lastName": "Maldonado",
 		"email": "maldonado.robin@dummy.com",
-		"alphanumeric": 57,
+		"age": 57,
 		"boolean": true
 	},
 	{
@@ -100,7 +100,7 @@
 		"firstName": "Griffith",
 		"lastName": "Shepherd",
 		"email": "griffith-shepherd8807@dummy.com",
-		"alphanumeric": 58,
+		"age": 58,
 		"boolean": false
 	},
 	{
@@ -108,7 +108,7 @@
 		"firstName": "Reagan",
 		"lastName": "Hahn",
 		"email": "r-hahn8541@test.com",
-		"alphanumeric": 75,
+		"age": 75,
 		"boolean": true
 	},
 	{
@@ -116,7 +116,7 @@
 		"firstName": "Amal",
 		"lastName": "Avery",
 		"email": "amal_avery8879@dummy.com",
-		"alphanumeric": 31,
+		"age": 31,
 		"boolean": true
 	},
 	{
@@ -124,7 +124,7 @@
 		"firstName": "Callum",
 		"lastName": "Cohen",
 		"email": "cohen-callum@dummy.com",
-		"alphanumeric": 81,
+		"age": 81,
 		"boolean": false
 	},
 	{
@@ -132,7 +132,7 @@
 		"firstName": "Elijah",
 		"lastName": "Whitley",
 		"email": "ewhitley7368@test.com",
-		"alphanumeric": 88,
+		"age": 88,
 		"boolean": false
 	},
 	{
@@ -140,7 +140,7 @@
 		"firstName": "Quentin",
 		"lastName": "Joyce",
 		"email": "joyce.quentin@test.com",
-		"alphanumeric": 82,
+		"age": 82,
 		"boolean": false
 	},
 	{
@@ -148,7 +148,7 @@
 		"firstName": "Kiona",
 		"lastName": "Farmer",
 		"email": "farmer-kiona@dummy.com",
-		"alphanumeric": 41,
+		"age": 41,
 		"boolean": false
 	},
 	{
@@ -156,7 +156,7 @@
 		"firstName": "Colette",
 		"lastName": "Wood",
 		"email": "c-wood@test.com",
-		"alphanumeric": 48,
+		"age": 48,
 		"boolean": false
 	},
 	{
@@ -164,7 +164,7 @@
 		"firstName": "Oleg",
 		"lastName": "Duncan",
 		"email": "d.oleg@test.com",
-		"alphanumeric": 98,
+		"age": 98,
 		"boolean": false
 	},
 	{
@@ -172,7 +172,7 @@
 		"firstName": "Driscoll",
 		"lastName": "Merrill",
 		"email": "merrilldriscoll@dummy.com",
-		"alphanumeric": 33,
+		"age": 33,
 		"boolean": false
 	},
 	{
@@ -180,7 +180,7 @@
 		"firstName": "Noah",
 		"lastName": "Colon",
 		"email": "n.colon7900@test.com",
-		"alphanumeric": 62,
+		"age": 62,
 		"boolean": false
 	},
 	{
@@ -188,7 +188,7 @@
 		"firstName": "Jessamine",
 		"lastName": "Orr",
 		"email": "jorr@dummy.com",
-		"alphanumeric": 58,
+		"age": 58,
 		"boolean": false
 	},
 	{
@@ -196,7 +196,7 @@
 		"firstName": "Xandra",
 		"lastName": "Bernard",
 		"email": "xbernard@dummy.com",
-		"alphanumeric": 73,
+		"age": 73,
 		"boolean": false
 	},
 	{
@@ -204,7 +204,7 @@
 		"firstName": "Shaine",
 		"lastName": "Schneider",
 		"email": "s_shaine7786@dummy.com",
-		"alphanumeric": 81,
+		"age": 81,
 		"boolean": false
 	},
 	{
@@ -212,7 +212,7 @@
 		"firstName": "Justine",
 		"lastName": "Vinson",
 		"email": "jvinson9989@test.com",
-		"alphanumeric": 42,
+		"age": 42,
 		"boolean": true
 	},
 	{
@@ -220,7 +220,7 @@
 		"firstName": "Abigail",
 		"lastName": "Ochoa",
 		"email": "a.ochoa@dummy.com",
-		"alphanumeric": 58,
+		"age": 58,
 		"boolean": false
 	},
 	{
@@ -228,7 +228,7 @@
 		"firstName": "Odette",
 		"lastName": "Hinton",
 		"email": "o.hinton5769@test.com",
-		"alphanumeric": 83,
+		"age": 83,
 		"boolean": false
 	},
 	{
@@ -236,7 +236,7 @@
 		"firstName": "Iliana",
 		"lastName": "Nicholson",
 		"email": "n_iliana@test.com",
-		"alphanumeric": 45,
+		"age": 45,
 		"boolean": true
 	}
 ]
