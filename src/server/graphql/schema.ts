@@ -4,7 +4,7 @@ export const typeDefs = `#graphql
     firstName: String!
     lastName: String!
     email: String!
-    age: Int!
+    dob: String!
     active: Boolean
   }
 
@@ -37,11 +37,17 @@ export const typeDefs = `#graphql
     active: Boolean
   }
 
-  input NewUserInput {
+  input UserSignUpInput {
     firstName: String!
     lastName: String!
     email: String!
-    age: Int!
+    dob: String!
+    password: String!
+  }
+
+  input userSignInInput {
+    email: String!
+    password: String!
   }
 
   type Query {
@@ -51,6 +57,8 @@ export const typeDefs = `#graphql
   }
   
   type Mutation {
-    createUser(input: NewUserInput!): User
+    userSignUp(input: UserSignUpInput!): User
+    userSignIn(input: userSignInInput!): User
+
   }
 `;

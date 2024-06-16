@@ -7,13 +7,32 @@ interface UserDocument {
   username: string;
   password: string;
   email: string;
+  salt: string;
+  active: boolean;
   interests: [string];
 }
 
-export default class Users extends MongoDataSource<UserDocument> {
+interface RestaurantDocument {
+  _id: ObjectId;
+  restaurantName: string;
+  phone: string;
+  location: string;
+  openningTime: string;
+  closingTime: string;
+  cuisine: string;
+  active: boolean;
+
+}
+
+
+export class Users extends MongoDataSource<UserDocument> {
   // Function to fetch all users
   async getAllUsers() {
       return this.collection.find().toArray();
+  }
+  
+  async getUserByEmail(email: string) {
+    return this.collection.findOne({ email });
   }
 
   // Function to create a new user
