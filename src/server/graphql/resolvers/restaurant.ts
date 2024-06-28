@@ -1,7 +1,3 @@
-
-
-
-
 const restaurants = async (parent, args, context, info) => [
     {
         id: "1",

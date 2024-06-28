@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ApiProvider } from "@/client/api";
-
+import React from "react";
+import Navbar from "@/app/components/nav/navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -18,7 +19,12 @@ export default function RootLayout({
   return (
     <ApiProvider>
       <html lang="en">
-        <body className={inter.className}>{children}</body>
+        <Navbar/>
+        <body className={inter.className}>
+          <main>
+            {children}
+          </main>
+        </body>
       </html>
     </ApiProvider>
   );

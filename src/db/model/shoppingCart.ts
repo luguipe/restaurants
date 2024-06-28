@@ -36,11 +36,11 @@ export class ShoppingCart extends MongoDataSource<ShoppingCartDocument> {
     }   
     
     async update(_id: string, $set: Partial<ShoppingCartDocument>) {                                                                                                                                          
-        // try {                                                                                                                                                                              
+        try {                                                                                                                                                                              
             return await this.collection.updateOne({ _id: new ObjectId(_id) }, { $set });                                                                                                          
-        // } catch (error) {                                                                                                                                                                  
-            // throw new Error("Failed to update shopping cart");                                                                                                                             
-        // }                                                                                                                                                                                  
+        } catch (error) {                                                                                                                                                                  
+            throw new Error("Failed to update shopping cart");                                                                                                                             
+        }                                                                                                                                                                                  
     }
 
     static createCollection(client: MongoClient) {

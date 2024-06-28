@@ -69,7 +69,7 @@ export const typeDefs = `#graphql
   type Query {
     users: [User]
     restaurants (input: RestaurantInput): [Restaurant!]!
-    menuItems: [MenuItem!]!
+    menuItem: [MenuItem!]!
     shoppingCart(id: String!): ShoppingCart
   }
   
@@ -81,5 +81,7 @@ export const typeDefs = `#graphql
     restaurantCreate(input: RestaurantInput!): Restaurant
     restaurantUpdate(input: RestaurantInput!): Restaurant
     shoppingCartUpdate(input:ShoppingCartUpdateInput!): ShoppingCart
+    menuItem: [MenuItem!]!
+  
   }
 `;

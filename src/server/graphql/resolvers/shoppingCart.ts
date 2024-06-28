@@ -16,13 +16,9 @@ export const shoppingCartUpdate = async (_parent, args, {db, userId}: Context) =
         await db.shoppingCart.getById(args.input.id) :
         await db.shoppingCart.create({userId, items:[], status: 'OPEN', total: 0, comment: ''})
 
-        console.log(args.input.id);
-
     if(!shoppingCart) {
         throw new Error('Failed to find or create shopping cart');
     }
-
-    console.log('shoppingCart', shoppingCart);
 
 
     // check if menut exists

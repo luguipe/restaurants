@@ -44,3 +44,14 @@ all together will be a link
   * [ ] User receives sucess message
   * [ ] Input fields are validated
 * Mongo Cluster IP LearningCluster IP120.88.127.65
+
+
+
+
+Model, 
+
+Context, 
+
+Schema, 
+
+Resolver Menu Item
