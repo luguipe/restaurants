@@ -3,8 +3,10 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ApiProvider } from "@/client/api";
 import React from "react";
-import Navbar from "@/app/components/nav/navbar";
+// import { Home } from "./page";
+import { Navbar} from "@/app/components/nav/navbar";
 const inter = Inter({ subsets: ["latin"] });
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -18,9 +20,11 @@ export default function RootLayout({
 }>) {
   return (
     <ApiProvider>
+      
+      
       <html lang="en">
-        <Navbar/>
         <body className={inter.className}>
+          <Navbar/>
           <main>
             {children}
           </main>
