@@ -7,8 +7,8 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./node_modules/@nextui-org/theme/dist/components/(button|link|navbar|ripple|spinner).js"
-  ].js"
   ],
+  
   theme: {
     extend: {
       backgroundImage: {
