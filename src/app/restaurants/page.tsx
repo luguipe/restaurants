@@ -12,7 +12,17 @@ const RestaurantListPage = () => {
     if(error) return <div> Error...</div>
 
 
-    return RestaurantCard;
+    return 
+    <>
+    {data.restaurants.map((restaurant) => (
+        <RestaurantCard key={restaurant.id} 
+        name={restaurant.name} 
+        />
+            )
+        )
+    }
+    </>
+    ;
 
 };
 

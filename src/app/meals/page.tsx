@@ -11,7 +11,7 @@ const MenuListPage = () => {
     if(error) return <div> Error...</div>
 
 
-    return <div> Restaurant List</div>
+    return <div></div>
 
 };
 
