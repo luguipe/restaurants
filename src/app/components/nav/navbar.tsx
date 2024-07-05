@@ -72,7 +72,7 @@ export const  Navbar1 = () => {
       <NavbarContent justify="end">
        <NavbarItem>
           <Button as={Link} color="primary" variant="ghost" href="/users/signup" >
-            Login
+            Sign Up
           </Button>
         </NavbarItem>
         <NavbarItem>
